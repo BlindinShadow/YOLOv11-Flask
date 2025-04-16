@@ -10,7 +10,7 @@ import logging
 from time import sleep
 
 # Load YOLO model
-model_path = "models/yolov11/fall-detection-model.pt"
+model_path = "models/yolov11/weights.pt"
 model = YOLO(model_path)
 
 LABEL_MAP = {
